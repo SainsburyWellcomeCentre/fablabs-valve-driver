@@ -8,9 +8,11 @@ This board accepts a 3.3–5V TTL logic input and drives solenoid valves from a 
 
 <img src=".img/assembled.png" alt="Valve Driver Assembly Example" width="600"/>
 
-## 🌐 View Online (eCAD)
+<!-- ## 🌐 View Online
 
-View the complete electronic design project online via [Altium 365 Viewer](https://sainsburywellcomecentre.github.io/fablabs-documentation/#fablabs-valve-driver)
+### eCAD
+
+View the complete electronic design project online via [Altium 365 Viewer](https://sainsburywellcomecentre.github.io/fablabs-documentation/#fablabs-valve-driver) -->
 
 ## Electrical Specifications
 
