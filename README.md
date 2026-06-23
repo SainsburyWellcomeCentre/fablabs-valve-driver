@@ -6,7 +6,12 @@ Compact solenoid valve driver board with TTL control.
 
 This board accepts a 3.3–5V TTL logic input and drives solenoid valves from a 5–40V supply. It is intended for lab automation and fluid-control applications that require a simple, robust valve driver with flexible connector options.
 
-<img src=".img/assembled.png" alt="Valve Driver Assembly Example" width="600"/>
+<table>
+  <tr>
+    <td><img src=".img/assembled_M5.png" alt="M5 Connector" width="300"/></td>
+    <td><img src=".img/assembled_pin.png" alt="Pin Header" width="300"/></td>
+  </tr>
+</table>
 
 <!-- ## 🌐 View Online
 
@@ -28,8 +33,8 @@ View the complete electronic design project online via [Altium 365 Viewer](https
 <table>
   <tr>
     <td><img src=".img/M5_connector.png" alt="M5 Connector Pinout" width="300"/></td>
-    <td><img src=".img/screw_terminal.png" alt="Screw Terminal Pinout" width="300"/></td>
     <td><img src=".img/pin_header.png" alt="Pin Header Pinout" width="300"/></td>
+    <td><img src=".img/screw_terminal.png" alt="Screw Terminal Pinout" width="300"/></td>
   </tr>
 </table>
 
