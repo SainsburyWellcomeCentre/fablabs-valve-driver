@@ -1,7 +1,0 @@
-.vscode
-build
-.micropico
-test.py
-
-# Python cache files
-__pycache__/

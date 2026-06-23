@@ -1,67 +1,49 @@
-# [Project Name]
+# FabLabs Valve Driver
 
-> **📝 Template Instructions:** Replace all bracketed placeholders `[like this]` with your project-specific information. Remove sections that don't apply to your project. Delete this instruction block when you're done.
+![GitHub release](https://img.shields.io/github/v/release/SainsburyWellcomeCentre/fablabs-valve-driver.svg)
 
-![GitHub release](https://img.shields.io/github/v/release/SainsburyWellcomeCentre/[your-repo].svg)
+Compact solenoid valve driver board with TTL control.
 
-[Brief one-line description of what your project does]
+This board accepts a 3.3–5V TTL logic input and drives solenoid valves from a 5–40V supply. It is intended for lab automation and fluid-control applications that require a simple, robust valve driver with flexible connector options.
 
-> **Note:** [Any important warnings or notes about the project]
-
-<img src=".img/[main-image].png" alt="[Image Description]" width="800"/>
-
-[Detailed description of the project, its purpose, and the problem it solves. Include context about why this project is useful and what applications it serves.]
-
-## 🔧 Features
-
-- [Feature 1 - describe key functionality]
-- [Feature 2 - describe key functionality]
-- [Feature 3 - describe key functionality]
-- [Feature 4 - describe key functionality]
-- [Add/remove features as needed]
+<img src=".img/assembled.png" alt="Valve Driver Assembly Example" width="600"/>
 
 ## 🌐 View Online (eCAD)
 
-View the complete electronic design project online via [Altium 365 Viewer](https://sainsburywellcomecentre.github.io/fablabs-documentation/#[your-repo])
+View the complete electronic design project online via [Altium 365 Viewer](https://sainsburywellcomecentre.github.io/fablabs-documentation/#fablabs-valve-driver)
 
-## 🚀 Getting Started
+## Electrical Specifications
 
-[Provide step-by-step instructions for initial setup and basic usage]
+- **Logic Input Voltage**: 3.3–5V TTL (0V low, 3.3–5V high)
+- **Driver Output Voltage**: 5–40V (follows power supply voltage)
+- **Maximum Load Current**: 1.5A
+- **Logic Input Impedance**: 10kΩ
+- **Response Time**: <1ms (typical MOSFET switching)
+- **Connector options:** M5 circular connector or pin-header options available for logic input and power
 
-1. [First step - setup/installation]
-2. [Second step - configuration]
-3. [Third step - basic operation]
+## Pin Definitions
 
-<img src=".img/[usage-image].png" alt="[Usage Description]" width="300"/>
+<table>
+  <tr>
+    <td><img src=".img/M5_connector.png" alt="M5 Connector Pinout" width="300"/></td>
+    <td><img src=".img/screw_terminal.png" alt="Screw Terminal Pinout" width="300"/></td>
+    <td><img src=".img/pin_header.png" alt="Pin Header Pinout" width="300"/></td>
+  </tr>
+</table>
 
-[Additional usage instructions, tips, or references to external resources]
+## Build your own
 
-[If applicable, mention any measurement tools or validation methods]
-
-## ⚙️ Configuration & Tuning _(if applicable)_
-
-[If your project requires calibration or fine-tuning, describe the process here]
-
-## 🔧 [Configuration/Calibration] Guidelines
-
-- [Step 1 - describe calibration procedure]
-- [Step 2 - describe parameter adjustment]
-- [Operating ranges and recommended settings]
-  > [Important notes or warnings about configuration]
-
-<div align="center">
-  <img src=".img/[configuration-image].png" alt="[Configuration Description]" width="600"/>
-</div>
+Check out the **[latest release](https://github.com/SainsburyWellcomeCentre/fablabs-valve-driver/releases/latest)** for complete production files and instructions to build your own valve driver.
 
 ## 💻 Software Requirements
 
 To access the source design files:
 
-- **[eCAD Software] [Version]** or newer _(for electronic design files)_  
-  Academic licenses available via [[Software] Education]([link])
-- **[mCAD Software] [Version]** or newer _(for mechanical design files)_  
-  Academic licenses via [[Software] Education]([link])
-- **[Additional Software]** _(if applicable for firmware/programming)_
+- **Altium Designer 24** or newer  
+  Academic licenses available via [Altium Education](https://www.altium.com/education/)
+
+- **Autodesk Inventor Pro 2025** or newer  
+  Academic licenses via [Autodesk Education](https://www.autodesk.com/education/home)
 
 ## 📜 License
 
@@ -80,43 +62,14 @@ Under the following terms:
 
 > For the full legal text, see [LICENSE](LICENSE).
 
-## 📚 References _(if applicable)_
-
-[If your project is based on or references academic work, list citations here]
-
-```bibtex
-@ARTICLE{AuthorYear,
-  title     = "[Paper Title]",
-  author    = "[Author Names]",
-  journal   = "[Journal Name]",
-  volume    = "[Volume]",
-  number    = "[Number]",
-  pages     = "[Pages]",
-  year      = "[Year]",
-  url       = "[URL]",
-  doi       = "[DOI]"
-}
-```
-
-## 🤝 Contributing
-
-[If you want to accept contributions, add guidelines here]
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
 ## ❤ Contributors
 
- <a href = "https://github.com/sainsburywellcomecentre/[your-repo]/graphs/contributors">
-   <img src = "https://contrib.rocks/image?repo=sainsburywellcomecentre/[your-repo]" alt="Contributors"/>
+ <a href = "https://github.com/sainsburywellcomecentre/fablabs-valve-driver/graphs/contributors">
+   <img src = "https://contrib.rocks/image?repo=sainsburywellcomecentre/fablabs-valve-driver" alt="Contributors"/>
  </a>
 
 ## 📧 Contact
 
-[Contact information or support channels]
-
-- **Author**: [Your Name]
-- **Email**: [contact-email]
-- **Website**: [FabLabs Documentation](https://sainsburywellcomecentre.github.io/fablabs-documentation/#[your-repo])
+- **Author**: [@DCisHurt](https://github.com/DCisHurt)
+- **Email**: [yuhsuan.chen@ucl.ac.uk](mailto:yuhsuan.chen@ucl.ac.uk)
+- **Website**: [FabLabs](https://sainsburywellcomecentre.github.io/fablabs-documentation/#fablabs-valve-driver)
